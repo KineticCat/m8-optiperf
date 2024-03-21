@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "vite build && lighthouse https://m8-optiperf-kh2q.vercel.app/ --quiet --chrome-flags='--headless --no-sandbox' --output-path=reports/lighthouse",
+    "build": "vite build && lighthouse https://m8-optiperf-kh2q.vercel.app/ --quiet --chrome-flags='--headless --no-sandbox' --output-path=./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
