@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "vite build && lighthouse https:localhost:5173 --quiet --chrome-flags='--headless --no-sandbox' --output-path=./",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,0 +1,22 @@
+{
+    "name": "Crispy Kitchen",
+    "short_name": "Crispy Kitchen",
+    "description": "Description of Crispy Kitchen",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg"
+      },
+      {
+        "src": "icon-512.png",
+        "sizes": "512x512",
+        "type": "images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+  }
+  
