@@ -3,20 +3,43 @@
     "short_name": "Crispy Kitchen",
     "description": "Description of Crispy Kitchen",
     "icons": [
+        {
+            "src": "webperf-practice-2/images/icon/icon-192-maskable.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
       {
-        "src": "icon.png",
+        "src": "webperf-practice-2/images/icon/icon-192-maskable.png",
         "sizes": "192x192",
-        "type": "images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg"
+        "type": "image/png",
+        "purpose": "maskable"
       },
       {
-        "src": "icon-512.png",
+        "src": "webperf-practice-2/images/icon/icon-512-maskable.png",
         "sizes": "512x512",
-        "type": "images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg"
+        "type": "image/png",
+        "purpose": "maskable"
       }
     ],
-    "start_url": "/",
+    "start_url": "/?source=pwa",
     "display": "standalone",
     "theme_color": "#ffffff",
-    "background_color": "#ffffff"
+    "scope": "/",
+    "background_color": "#ffffff",
+    "screenshots": [
+        {
+          "src": "webperf-practice-2/images/icon/icon-512-maskable.png",
+          "type": "image/png",
+          "sizes": "512x512",
+          "form_factor": "narrow"
+        },
+        {
+          "src": "webperf-practice-2/images/icon/icon-512-maskable.png",
+          "type": "image/png",
+          "sizes": "512x512",
+          "form_factor": "wide"
+        }
+      ]
   }
   
